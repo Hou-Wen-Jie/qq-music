@@ -7,8 +7,37 @@ nav{
     width: 6.82rem;
     height: 0.34rem;
     background-color: aqua;
+    margin: 0 auto;
+    margin-top: 1.1rem;
+    position: relative;
+}
+nav div:nth-child(1) .icon-xiala{
+    font-size: 0.34rem;
 }
 nav div:nth-child(1){
-    
+    float: left;
 }
+nav div:nth-child(3){
+    float: right;
+}
+nav div:nth-child(3) p{
+    position: absolute;
+    right: 0.69rem;
+    font-size: 0.28rem;
+    line-height: 0.34rem;
+}
+nav div:nth-child(2) p{
+    font-size: 0.32rem;
+    float: left;
+    position: absolute;
+    left: 2.79rem;
+    line-height: 0.34rem;
+}
+nav div:nth-child(3) .icon-sousuo{
+    font-size: 0.34rem;
+}
+
+
+
+
 /* 分类歌单结束 */

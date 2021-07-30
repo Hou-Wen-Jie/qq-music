@@ -1,0 +1,358 @@
+html{
+    font-size: 13.3333333vw;
+    height: 16em;
+    background-color: #f9f9f9;
+}
+
+/* 头部开始 */
+header{
+    width: 6.77 rem;
+    height: .67rem;
+    /* background-color: red; */
+    margin: 0 auto;
+    margin-top: .49rem;
+    margin-left: 0.32rem;
+    margin-right: 0.32rem;
+    display: flex; 
+    position: relative;
+    justify-content: space-between;
+    
+}
+header ul{
+    display: flex; 
+    
+}
+ ul li:nth-of-type(1){
+    font-size:.34rem;
+    margin-top: 0.09rem;
+    margin-right: 0.44rem ;
+    
+    
+}
+li:nth-child(2){
+    font-size: .38rem;
+    height: 0.36rem;
+    margin-top: 0.05rem;
+    margin-right: 0.47rem;
+}
+ul li:last-child{
+    font-size: .34rem;
+    margin-top: 0.09rem;
+    
+}
+.music{
+    width: 1.11rem;
+    height: 0.07rem;
+    background-color: #22d59c;
+    border-radius: 0.03rem;
+    margin-left: 0.03rem;
+    margin-top: 0.12rem;
+    position: absolute;
+    bottom: 0;
+}
+
+
+
+/* 头部结束 */
+/* 搜索框开始 */
+.search{
+    width: 6.86rem;
+    height: 0.55rem;
+    background-color: #eceef1;
+    border-radius: 0.28rem;
+    margin: 0 auto;
+    margin-top: 0.19rem; 
+    display: flex;
+    
+}
+.search .icon-sousuo{
+    font-size: 0.26rem;
+    color: #9c9d9f;
+    text-align: center;
+    margin:0.14rem 0 0.17rem 0.19rem;
+}
+.search p:nth-of-type(1){
+    font-size: 0.24rem;
+    width: 1.35rem;
+    height: 0.19rem;
+    line-height: 0.19rem;
+    font-weight: normal;
+    color: #767779;
+    opacity: 0.83;
+    margin: 0.19rem 0 0.17rem 0.18rem;
+   
+}
+.search p:last-child{
+    width: 0.96rem;
+    line-height: 0.23rem;
+    font-size: 0.24rem;
+    font-weight: normal;
+    color: #766669;
+    opacity: 0.18;
+    margin: 0.15rem 0 0.17rem 0.22rem;
+}
+
+/* 搜索框结束 */
+/* 轮播图开始 */
+.banner{
+    width: 6.86rem;
+    height: 2.81rem;
+    margin: 0 auto;
+    margin-top: 0.31rem;
+    border-radius: 10px;
+}
+.banner img{
+    width: 6.86rem;
+}
+/* 轮播图结束 */
+/* 分类歌单开始 */
+.ification{
+    width: 5.85rem;
+    height: 0.97rem;
+    margin: 0 auto;
+    margin-top: 0.5rem;
+}
+.ification ul:nth-of-type(1) li{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+.ification ul:nth-of-type(1){
+    display: flex;
+    width: 5.85rem;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.ification ul:nth-of-type(1) li img{
+    width: 0.44rem;
+    height: 0.44rem;
+}
+.ification ul:nth-of-type(2) li{
+    font-size: 0.24rem;
+    /* margin-top: 0.27rem; */
+    float: left;
+    margin-right: 0.85rem;
+}
+.ification ul:nth-of-type(2) li:nth-of-type(2){
+    font-size: 0.24rem;
+    margin-top: 0.09rem;
+    float: left;
+    margin-right: 0.66rem;
+}
+.ification ul:nth-of-type(2) li:nth-of-type(3){
+    font-size: 0.24rem;
+    margin-top: 0.1rem;
+    float: left;
+    margin-right: 0.6rem;
+}
+.ification ul:nth-of-type(2) li:nth-of-type(4){
+    font-size: 0.24rem;
+    margin-top: 0.1rem;
+    float: left;
+    margin-right: 0.86rem;
+}
+/* 分类歌单结束 */
+/* 编辑甄选开始 */
+.edit{
+    width: 6.86rem;
+    height: 3.58rem;
+    margin: 0 auto;
+    margin-top: 0.38rem;
+   
+}
+.edit_top{
+   margin: 0;
+   padding: 0;
+   font-size: 0.3rem;
+   color: #1c1c1c;
+   font-weight: normal;
+}
+.edit_center ul{
+    width: 6.86rem;
+    display: flex;
+    justify-content: space-between;
+}
+.edit_center ul li{
+    width: 2.2rem;
+    height: 2.2rem;
+    margin-top: 0.2rem;
+    background-color: greenyellow;
+    border-radius: 0.14rem;
+}
+.edit_center ul li img{
+    width: 2rem;
+    height: 2.2rem;
+    border-radius: 0.14rem;
+
+}
+.edit_bottom ul li{
+    width: 2.04rem;
+    height: 0.52rem;
+    font-size:0.24rem;
+    float: left;
+    margin-right: 0.37rem;
+}
+.edit_bottom li:nth-of-type(3){
+    width: 1.95rem;
+    margin-right: 0rem;
+    margin-left: 0.09rem;
+}
+
+
+/* 编辑甄选结束 */
+/* 更多新歌开始 */
+.newsong{
+    width: 6.86rem;
+    height: 0.5rem;
+    margin: 0 auto;
+    margin-top: 0.72rem;
+    display: flex;
+    justify-content: space-between;
+}
+.newsong ul{
+    display: flex;
+    justify-content: start;
+}
+.newsong ul li{
+    font-size: 0.3rem;
+    margin: 0;
+    margin-top: -0.06rem;
+    margin-right: 0.38rem;
+    color: #000;
+}
+.newsong div{
+    width: 0.57rem;
+    height: 0.07rem;
+    background-color: #22d49b;
+    border-radius: 0.04rem;
+    margin-top: 0.06rem;
+}
+.newsong p{
+    color: #000;
+    opacity: 0.86;
+    font-size: 0.22rem; 
+    float: right;
+    margin-right: -2.2rem;
+}
+.newsong i{
+    font-size: 0.2rem;
+    margin-top: 0.05rem;
+}
+
+
+
+/* 更多新歌结束 */
+/* 更多新歌下面的开始 */
+.newsong_bottom{
+    width: 6.56rem;
+    height: 1.11rem;
+    margin: 0 auto;
+    margin-left: 0.32rem;
+    margin-top: 0.3rem;
+}
+.newsong_bottom img{
+    float: left;
+    width: 1.11rem;
+    height: 1.11rem;
+    background-color: blue;
+    margin-right: 0.37rem;
+    border-radius: 0.13rem;
+}
+.newsong_text{
+    width: 1.21rem;
+    float: left;
+}
+.newsong_bottom p:nth-of-type(1){
+    float: left;
+    width: 3rem;
+    font-size: 0.24rem;
+    color: #000;
+    margin-top: 0.29rem;
+    width: 1.21rem
+}
+.newsong_bottom p:nth-of-type(2){
+    float: left;
+    width: 3rem;
+    font-size: 0.22rem;
+    color: #000;
+    margin-top: 0.1rem;
+    width: 1.21rem;
+    opacity: 0.68;
+}
+.newsong_images i{
+    font-size:0.39rem;
+    float: right;
+    transform: translateY(0.35rem);
+}
+/* 更多新歌下面的结束 */
+/* 播放器开始 */
+.player{
+    width: 6.86rem;
+    height: 0.94rem;
+
+    margin: 0 auto;
+    margin-top: 0.21rem;
+    overflow: hidden;
+    
+
+}
+.player img:nth-child(1){
+    width: 0.91rem;
+    height: 0.89rem;
+    border-radius: 0.04rem;
+    float: left;
+}
+.player img:nth-child(2){
+    float: right;
+    width: 1rem;
+    margin-top: 0.2rem;
+    margin-right: 0.25rem;
+}
+.player p{
+    width: 6.85rem;
+    height: 0.82rem;
+    /* font-size: 0.24rem; */
+    background-color: #b8bbcc;
+    border-radius: 0.41rem;
+    margin-top: 0.07rem;
+    line-height: 0.82rem;
+}
+.player span{
+    margin-left: 0.4rem;
+    float: left;
+}
+
+/* 播放器结束 */
+/* 固定栏开始 */
+.wrap{
+    background-color: #f9f9f9;
+    width: 100%;
+    height: 2.5rem;
+    bottom: 0;
+    left: 0;
+    position: fixed;
+}
+.fixed ul{
+    width: 5.65rem;
+    margin: 0 auto;
+    margin-top: 0.27rem;
+    display: flex;
+    justify-content: space-between;
+}
+    
+.fixed ul li{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+}
+.fixed ul li img{
+    width:0.41rem;
+    height: 0.41rem;
+}
+.fixed ul li span{
+    font-size: .18rem;
+    margin-top: 0.08rem;
+    
+}
+/* 固定栏结束 */

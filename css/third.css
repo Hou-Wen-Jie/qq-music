@@ -1,0 +1,14 @@
+html{
+    font-size: 13.33333333vw;
+}
+
+/* 分类歌单开始 */
+nav{
+    width: 6.82rem;
+    height: 0.34rem;
+    background-color: aqua;
+}
+nav div:nth-child(1){
+    
+}
+/* 分类歌单结束 */

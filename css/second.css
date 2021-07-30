@@ -1,0 +1,286 @@
+html{
+    font-size: 13.3333333vw;
+}
+body{
+    background-color: rgb(111, 69, 70);
+}
+
+/* 导航栏开始 */
+nav{
+    width: 7.11rem;
+    height: 0.39rem;
+    margin: 0.5rem auto;
+    display: flex;
+    justify-content: space-between;
+}
+nav .icon-xiala{
+    font-size: 0.31rem;
+    color: #ffe5e7;
+}
+nav .icon-chakantiezifenxiang{
+    font-size: 0.36rem;
+    color: #ffe5e7;
+}
+.nav_center{
+    width: 4.2rem;
+    float: left;
+    margin-left: 0.5rem;
+}
+.nav_center li{
+    float: left;
+    font-size: 0.24rem;
+    color: #996066;
+    margin-top: 0.03rem;
+}
+.nav_center span{
+    float: left;
+    margin-left: 0.53rem;
+    margin-right: 0.48rem;
+    width: 0.02rem;
+    height: 0.1rem;
+    margin-top: 0.15rem;
+     background-color: #996066;
+}
+
+
+
+
+
+
+
+/* 导航栏结束 */
+
+/* 背景开始 */
+.bg{
+    width: 6.33rem;
+    height: 6.32rem;
+    background-color: aquamarine;
+    margin: 0 auto;
+    margin-top: 0.65rem;
+    border-radius: 0.17rem;
+    position: relative;
+    
+}
+.bg img{
+    width: 6.33rem;
+    height: 6.32rem;
+    border-radius: 0.17rem;
+}
+.popularity{
+    width: 1.51rem;
+    height: 0.4rem;
+    border-radius: 0.2rem;
+    opacity: 0.34;
+    background-color: #010000;
+    position: absolute;
+    bottom: 0.2rem;
+    left: 0.2rem;
+}
+.popularity .icon-renqiredu{
+    color: #fff9fb;
+    font-size: 0.21rem;
+    position: absolute;
+    top:0.07rem;
+    left: 0.17rem;
+    
+}
+.popularity p{
+    color: black;
+    position: absolute;
+    font-size: 0.24rem;
+    color: #ffffff;
+    top: 0.06rem;
+    right: 0.15rem;
+
+}
+.bg .bg_right img{
+    width: 0.91rem;
+    height: 0.5rem;
+    background-color: burlywood;
+    border-radius: 0.1rem;
+    position: absolute;
+    right: 0.33rem;
+    bottom: 0.2rem;
+    filter: none;
+}
+
+
+
+/* 背景结束 */
+/* 音乐名开始 */
+.music_wrap{
+    width:6.74rem;
+    position: relative;
+    margin-top: 0.63rem;
+    margin-left: 0.59rem;
+}
+.music{
+    width: 6.74rem;
+    height: 0.46rem;
+    float: left;
+    position: relative;
+    left: 0;
+}
+.music p{
+    height: 0.46rem;
+    line-height: 0.48rem;
+    font-size: 0.46rem;
+    color: #ffe5e7;
+    float: left;
+}
+.music img{
+    position: absolute;
+    top: 0.21rem;
+    right: 0;
+    width: 0.88rem;
+    height: 0.53rem;
+}
+.music_center{
+    position: absolute;
+    width: 1.86rem;
+    top: 0.86rem;
+    left: 0;
+}
+.music_center p{
+    position: absolute;
+    font-size: 0.24rem;
+    color: #cca9ad;
+    opacity: 0.88;
+}
+.music_center img{
+    position: absolute;
+    left: 1.19rem; 
+    width: 0.68rem;
+}
+.music_bottom p{
+    position:absolute;
+    font-size: 0.24rem;
+    color: #cca9ad;
+    opacity: 0.71;
+    top: 1.59rem;
+    left: 0;
+}
+
+
+
+/* 音乐名结束 */
+
+/*功能开始*/
+.function{
+    width: 6.13rem;
+    margin: 0 auto;
+
+    margin-top: 3rem;
+    display: flex;
+    justify-content: space-between;
+}
+.function li img{
+        width: 0.65rem;
+        height: 0.5rem;
+}
+.function li:nth-child(3) img{
+    width: 0.44rem;
+    height: 0.45rem;
+    margin-top: 0.03rem;
+}
+.function li:nth-child(5) img{
+    width: 0.44rem;
+    height: 0.18rem;
+    margin-top: 0.18rem;
+}
+
+/* 功能结束 */
+/* 播放开始 */
+.music_play_top{
+    width: 6.33rem;
+    height: 0.42rem;
+    margin: 0 auto;
+    margin-top: 0.3rem ;
+    position: relative;
+}
+.music_play_top p:nth-child(1){
+    width: 0.32rem;
+    height: 0.07rem;
+    background-color: #ffe5e7;
+    float: left;
+}
+.music_play_top p:nth-child(2){
+    width: 0.14rem;
+    height: 0.14rem;
+    border-radius: 50%;
+    background-color: #ffe5e7;
+    float: left;
+    position: absolute;
+    top: -0.03rem;
+    left: 0.3rem;
+    z-index: 1;
+}
+.music_play_top p:nth-child(3){
+    width: 5.8rem;
+    height: 0.04rem;
+    background-color: #a9878b;
+    float: left;
+    opacity: 0.84;
+    position: absolute;
+    right: 0.1rem;
+    top: 0.03rem;
+}
+.music_play_top p:nth-child(4){
+    position: absolute;
+    top: 0.1rem;
+    left: 0;
+    font-size: 0.24rem;
+    color: #ccabae;
+    opacity: 0.38;
+    
+}
+.music_play_top p:nth-child(5){
+    position: absolute;
+    top: 0.1rem;
+    right: 0;
+    font-size: 0.24rem;
+    color: #ccabae;
+    opacity: 0.38;
+}
+
+.music_play_bottom{
+    width: 6.33rem;
+    position: relative;
+    margin: 0 auto;
+    margin-left: 0.56rem;
+    margin-top: 0.33rem;
+}
+.music_play_bottom img:nth-child(1){
+    width: 0.44rem;
+    height: 0.37rem;
+    position: absolute;
+    top: 0.05rem;
+    left: 0;
+}
+.music_play_bottom img:nth-child(2){
+    width: 0.44rem;
+    height: 0.45rem;
+    position: absolute;
+    left: 1.5rem;
+}
+.music_play_bottom img:nth-child(3){
+    width: 0.8rem;
+    height: 0.8rem;
+    position: absolute;
+    left: 2.8rem;
+    top: -0.2rem;
+}
+.music_play_bottom img:nth-child(4){
+    width: 0.44rem;
+    height: 0.45rem;
+    position: absolute;
+    right: 1.5rem;
+}
+.music_play_bottom img:nth-child(5){
+    width: 0.55rem;
+    height: 0.45rem;
+    position: absolute;
+    right: 0rem;
+}
+
+/* 播放结束 */
